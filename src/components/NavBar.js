@@ -70,6 +70,7 @@ const NavBar = (props) => {
       ui_locales: currentValue?.ui_locales,
       deviceId: "example_deviceId",
       aai: {
+        action: currentValue?.action,
         ea: currentValue?.ea || "",
         affcc: currentValue?.affid || AffId() || 0,
         cc: {
